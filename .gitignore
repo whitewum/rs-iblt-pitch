@@ -1,0 +1,49 @@
+# --- git-ai: 通用忽略规则 ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node / JS
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+.next/
+.nuxt/
+
+# Java
+*.class
+target/
+.gradle/
+
+# C / C++
+*.o
+*.obj
+*.so
+*.dylib
+*.exe
+*.out
+build/
+cmake-build-*/
+.dogcats/config.local.toml
+.dogcats/.issues.lock
+
+# 已删除的旧幻灯片，仅本地保留
+deck-securities/project/old-slides/
+
+# 幻灯片源文件与讲稿只在本地保留
+deck-securities/
